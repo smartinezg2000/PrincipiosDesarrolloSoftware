@@ -112,7 +112,7 @@ public class MyPanel extends JPanel implements ActionListener   {
             n2 = cuadrotextoplaca.getText();
             n3 = cuadrotextolugar.getText();
             
-            String denuncia= "Nombre: " + n1 + " Placa: " + n2+ " Lugar: " + n3;
+            String denuncia="DENUNCIA"+ "Nombre: " + n1 + " Placa: " + n2+ " Lugar: " + n3;
             n2= n2.toUpperCase();
             ModuloPlacas.guardar(n2);
             ModuloDenuncias.guardar(denuncia);
@@ -143,6 +143,15 @@ public class MyPanel extends JPanel implements ActionListener   {
             
         }
         if (e.getSource() == BotonPanico) {
+            n1 = cuadrotextonombredenuncia.getText();
+            n2 = cuadrotextoplaca.getText();
+            n3 = cuadrotextolugar.getText();
+            
+            String denuncia="BOTÓN DE EMERGENCIA ACTIVO  " +"Nombre: " + n1 + " Placa: " + n2+ " Lugar: " + n3;
+            n2= n2.toUpperCase();
+            ModuloPlacas.guardar(n2);
+            ModuloDenuncias.guardar(denuncia);
+            System.out.println("Las autoridades van en camino");
             
             try
             {

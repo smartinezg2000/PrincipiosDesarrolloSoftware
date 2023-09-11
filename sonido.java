@@ -21,10 +21,10 @@ public static void alerta() throws LineUnavailableException, UnsupportedAudioFil
   
      while(!response.equals("P")) {
       System.out.println("Ingresa P para parar el audio");
+      
+   
+   
       response = scanner.nextLine();
-   
-   
-      response = scanner.next();
       response = response.toUpperCase();
    
 

@@ -1,6 +1,7 @@
 
 import java.awt.*;
 import java.awt.event.*;
+
 import javax.swing.*;
 import javax.swing.event.*;
 import javafx.scene.media.MediaPlayer;
@@ -11,11 +12,11 @@ import javax.sound.sampled.*;
 import java.util.Scanner;
 
 
+
 public class MyPanel extends JPanel implements ActionListener   {
     private JButton botonPlaca;
     private JTextField textoconsultasplaca;
     private JLabel LabelEscritorPlacas;
-    private JList listaplacas;
     private JButton BotonPanico;
     private JTextField cuadrotextonombredenuncia;
     private JTextField cuadrotextoplaca;
@@ -36,7 +37,7 @@ public class MyPanel extends JPanel implements ActionListener   {
 
     public MyPanel() {
         //construct preComponents
-        String[] listaplacasItems = {"Placa1", "Placa2", "Placa3"};
+        
         String[] seleccioncomunaItems = {"Comuna 1 - Popular", "Comuna 2 - Santa Cruz", "Comuna 3 - Manrique", "Comuna 4 - Aranjuez", "Comuna 5 - Castilla", "Comuna 6 - Doce de Octubre", "Comuna 7 - Robledo", "Comuna 8 - Villa Hermosa", "Comuna 9 - Buenos Aires", "Comuna 10 - La Candelaria", "Comuna 11 - Laureles - Estadio", "Comuna 12 - La América", "Comuna 13 - San Javier", "Comuna 14 - El Poblado", "Comuna 15 - Guayabal", "Comuna 16 - Belén"};
 
         //construct components
@@ -44,7 +45,8 @@ public class MyPanel extends JPanel implements ActionListener   {
         botonPlaca.addActionListener(this);
         textoconsultasplaca = new JTextField (5);
         LabelEscritorPlacas = new JLabel ("Consultar si una placa ha sido denunciada");
-        listaplacas = new JList (listaplacasItems);
+        
+        
         BotonPanico = new JButton ("Help");
         BotonPanico.addActionListener(this);
         cuadrotextonombredenuncia = new JTextField (5);
@@ -63,22 +65,27 @@ public class MyPanel extends JPanel implements ActionListener   {
         botonayudapsicologica = new JButton ("Pedir ayuda");
         botonayudapsicologica.addActionListener(this);
         seleccioncomuna = new JComboBox (seleccioncomunaItems);
-        
         jcomp20 = new JLabel ("");
         calle = new JLabel ("Info. adicional");
 
         //set components properties
-        listaplacas.setToolTipText ("PlacasIngresadas");
+       
+      
 
-        //adjust size and set layout
+
+         //adjust size and set layout
         setPreferredSize (new Dimension (624, 361));
         setLayout (null);
+        
+
+        
+
+
 
         //add components
         add (botonPlaca);
         add (textoconsultasplaca);
         add (LabelEscritorPlacas);
-        add (listaplacas);
         add (BotonPanico);
         add (cuadrotextonombredenuncia);
         add (cuadrotextoplaca);
@@ -101,8 +108,7 @@ public class MyPanel extends JPanel implements ActionListener   {
         botonPlaca.setBounds (425, 115, 100, 20);
         textoconsultasplaca.setBounds (425, 65, 100, 25);
         LabelEscritorPlacas.setBounds (355, 0, 255, 75);
-        listaplacas.setBounds (345, 380, 100, 75);
-        BotonPanico.setBounds (210, 290, 180, 60);
+        BotonPanico.setBounds (50, 320, 100, 25);
         cuadrotextonombredenuncia.setBounds (50, 55, 100, 25);
         cuadrotextoplaca.setBounds (50, 115, 100, 25);
         cuadrotextolugar .setBounds (50, 240, 100, 25);
@@ -132,12 +138,20 @@ public class MyPanel extends JPanel implements ActionListener   {
             n2 = cuadrotextoplaca.getText();
             n3 = String.valueOf(seleccioncomuna.getSelectedItem());
             n5 = cuadrotextolugar.getText();
-            
+            if(n2.length()<6||n2.length()>6){
+                System.out.println("Entrada de placa no válida");
+            }
+            else{
             String denuncia="DENUNCIA "+ "Nombre: " + n1 + " Placa: " + n2+ " Lugar: " + n3 + " " + n5;
             n2= n2.toUpperCase();
             ModuloPlacas.guardar(n2);
             ModuloDenuncias.guardar(denuncia);
             System.out.println("Denuncia realizada");
+
+            
+
+          
+            }
             }            
             
             

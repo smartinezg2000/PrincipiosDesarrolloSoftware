@@ -1,12 +1,19 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all they need to know. The comments should usually include at least:
-------------------------------------------------------------------------
+Este programa funciona como herramienta de denuncia, llamado de emergencia, solicitud de ayuda psicológica y consulta de previas denuncias. Todo esto en lo que respecta al acoso en transporte público en Medellín
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+En cada caso se realiza un tratamiento de datos diferente, por lo que nuestra respuesta será coherente con la importancia de la denuncia.
+
+
+
+
+Consideraciones antes de inicar el programa:
+
+
+consideración numero 1
+
+ introducir los respectivos datos de: una denuncia, pedir ayuda psicológica, realizar una consulta de placas.
+
+consideración numero 2
+
+seleccionar el botón de la respectiva acción. en caso de tener datos de una denuncia o para pedir ayuda urgente se realiza llenando los mismos recuadros con los mismos datos. Nosotros registraremos qué botón ha sido pulsado
+
+

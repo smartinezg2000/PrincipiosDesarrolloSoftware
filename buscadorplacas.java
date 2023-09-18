@@ -2,8 +2,6 @@
 import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
-import java.io.File;
-import java.util.Scanner;
 import java.io.IOException;
 public class buscadorplacas
 {
@@ -11,7 +9,7 @@ public class buscadorplacas
     String registro = "Placas.txt";
     
     String line = null;
-    int acum =0;
+ 
      try {
       FileReader fileReader = new FileReader(registro);
       BufferedReader bufferedReader = new BufferedReader(fileReader);
@@ -26,5 +24,6 @@ public class buscadorplacas
       e.printStackTrace();
     }
     return ("Placa "+ n +" sin denuncias");
+    
     }
 }

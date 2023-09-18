@@ -1,11 +1,21 @@
-DENUNCIANombre: simon Placa: acc123 Lugar: Comuna 8 - Villa Hermosapaso en tales y tales
-DENUNCIA Nombre: sdafs Placa: asdfasdf Lugar: Comuna 1 - Popular asdfasdf
-DENUNCIA Nombre: asd Placa: aee123 Lugar: Comuna 3 - Manrique fren a tuquiti
-BOTÓN DE EMERGENCIA ACTIVO   Nombre: asd Placa: aee123 Lugar: Comuna 3 - Manriquefren a tuquiti
-DENUNCIA Nombre: auidfnkajsfasdf Placa: asd123 Lugar: Comuna 11 - Laureles - Estadio sdfgsdfg
+BOTÓN DE EMERGENCIA ACTIVADO   Nombre:  Placa:  Lugar: Comuna 1 - Popular
+BOTÓN DE EMERGENCIA ACTIVADO   Nombre: asdfjnasss Placa: sdfsdf Lugar: Comuna 1 - Popularsdff
+DENUNCIA Nombre: santiago Placa: ccn123 Lugar: Comuna 13 - San Javier estoy al lado de viva con camisa amarilla
+BOTÓN DE EMERGENCIA ACTIVADO   Nombre: santiago Placa: ccn123 Lugar: Comuna 13 - San Javierestoy al lado de viva con camisa amarilla
 BOTÓN DE EMERGENCIA ACTIVADO   Nombre:  Placa:  Lugar: Comuna 1 - Popular
 BOTÓN DE EMERGENCIA ACTIVADO   Nombre:  Placa:  Lugar: Comuna 1 - Popular
 BOTÓN DE EMERGENCIA ACTIVADO   Nombre:  Placa:  Lugar: Comuna 1 - Popular
 BOTÓN DE EMERGENCIA ACTIVADO   Nombre:  Placa:  Lugar: Comuna 1 - Popular
+DENUNCIA Nombre: samuel Placa: fgt540 Lugar: Comuna 15 - Guayabal el acosador es santiago
+BOTÓN DE EMERGENCIA ACTIVADO   Nombre: samuel Placa: fgt540 Lugar: Comuna 15 - Guayabalel acosador es santiago
+BOTÓN DE EMERGENCIA ACTIVADO   Nombre: samuel Placa: fgt540 Lugar: Comuna 15 - Guayabalel acosador es santiago
+DENUNCIA Nombre: sdjkfsd Placa: zxc Lugar: Comuna 1 - Popular 
 BOTÓN DE EMERGENCIA ACTIVADO   Nombre:  Placa:  Lugar: Comuna 1 - Popular
-BOTÓN DE EMERGENCIA ACTIVADO   Nombre:  Placa:  Lugar: Comuna 1 - Popular
+DENUNCIA Nombre: xdfkm Placa: asdasd Lugar: Comuna 1 - Popular sdjkfnaskjdf
+DENUNCIA Nombre: asdfasf Placa: fghfgh Lugar: Comuna 1 - Popular aefiojjaer
+DENUNCIA Nombre: simon Placa: asd123 Lugar: Comuna 1 - Popular nos e nada
+BOTÓN DE EMERGENCIA ACTIVADO   Nombre: simon Placa: asd123 Lugar: Comuna 1 - Popularnos e nada
+DENUNCIA Nombre: asdfasdf123456 Placa: 123456 Lugar: Comuna 3 - Manrique kdsajfnkjasndf
+ADD123
+DENUNCIA Nombre: Andrea Gómez Placa: tcc123 Lugar: Comuna 12 - La América el conductor del autobus[ ]
+BOTÓN DE EMERGENCIA ACTIVADO   Nombre: Andrea Gómez Placa: tcc123 Lugar: Comuna 14 - El Pobladoel conductor del autobus[ ]

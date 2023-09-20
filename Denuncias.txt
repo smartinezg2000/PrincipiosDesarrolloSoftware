@@ -19,3 +19,9 @@ DENUNCIA Nombre: asdfasdf123456 Placa: 123456 Lugar: Comuna 3 - Manrique kdsajfn
 ADD123
 DENUNCIA Nombre: Andrea Gómez Placa: tcc123 Lugar: Comuna 12 - La América el conductor del autobus[ ]
 BOTÓN DE EMERGENCIA ACTIVADO   Nombre: Andrea Gómez Placa: tcc123 Lugar: Comuna 14 - El Pobladoel conductor del autobus[ ]
+DENUNCIA Nombre: santiago Placa: ACC345 Lugar: Comuna 4 - Aranjuez sucedió en un taxi,  cerca al parque. no habían policias en la zona
+DENUNCIA Nombre: andrea Placa: app674 Lugar: Comuna 7 - Robledo el conductor de bus tuvo un comportamiento inapropiado con otra pasajera
+DENUNCIA Nombre: paola Placa: fgt888 Lugar: Comuna 3 - Manrique estaba sola en un uber y el conductor no me paraba para dejarme bajar
+BOTÓN DE EMERGENCIA ACTIVADO   Nombre: andrea Placa: hgg784 Lugar: Comuna 3 - Manriqueme intentó llevar a callejones en el taxi con placa hgg784
+DENUNCIA Nombre: andrea Placa: hgg784 Lugar: Comuna 3 - Manrique me intentó llevar a callejones en el taxi con placa hgg784
+DENUNCIA Nombre: federico Placa: lkj67i Lugar: Comuna 2 - Santa Cruz sufrí acoso por parte de mi picapp

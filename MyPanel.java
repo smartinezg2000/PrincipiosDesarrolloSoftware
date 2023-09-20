@@ -34,6 +34,7 @@ public class MyPanel extends JPanel implements ActionListener   {
     private JComboBox seleccioncomuna;
     private JLabel jcomp20;
     private JLabel calle;
+    private JLabel denuncia;
 
     public MyPanel() {
         //construct preComponents
@@ -46,7 +47,7 @@ public class MyPanel extends JPanel implements ActionListener   {
         textoconsultasplaca = new JTextField (5);
         LabelEscritorPlacas = new JLabel ("Consultar si una placa ha sido denunciada");
         
-        
+        denuncia = new JLabel("Registrar Denuncias");
         BotonPanico = new JButton ("Help");
         BotonPanico.addActionListener(this);
         cuadrotextonombredenuncia = new JTextField (5);
@@ -103,6 +104,7 @@ public class MyPanel extends JPanel implements ActionListener   {
         add (seleccioncomuna);
         add (jcomp20);
         add (calle);
+        add (denuncia);
 
         //set component bounds (only needed by Absolute Positioning)
         botonPlaca.setBounds (425, 115, 100, 20);
@@ -125,6 +127,7 @@ public class MyPanel extends JPanel implements ActionListener   {
         seleccioncomuna.setBounds (20, 180, 180, 25);
         jcomp20.setBounds (35, 210, 170, 25);
         calle.setBounds (35, 210, 170, 25);
+        denuncia.setBounds(40, 5, 200, 25);
     }
      public void actionPerformed(ActionEvent e) {
         String n1;

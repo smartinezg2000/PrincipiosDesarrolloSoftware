@@ -72,7 +72,25 @@ public class Usuario {
                 
             } }
     } catch (IOException e) {
-      e.printStackTrace();
+    }
+    return false;
+    
+    }
+    public boolean confirmarRegistro() throws java.io.IOException, FileNotFoundException  {
+    String registro = "Usuarios.txt";
+    
+    String line = null;
+ 
+     try {
+      FileReader fileReader = new FileReader(registro);
+        try (BufferedReader bufferedReader = new BufferedReader(fileReader)) {
+            while ((line = bufferedReader.readLine()) != null) {
+                if (line.contains(this.cedula)) {
+                    return true;
+                }
+                
+            } }
+    } catch (IOException e) {
     }
     return false;
     

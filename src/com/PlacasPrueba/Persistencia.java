@@ -16,40 +16,6 @@ import java.util.Scanner;
 
 public class Persistencia {
     
-    public static void emergencias(String n) throws UnsupportedAudioFileException, IOException, LineUnavailableException{
-        File f = new File("Emergencias.txt");
-        FileWriter writer = null;
-        PrintWriter pw = null;
-        
-        // File creation
-        if (!f.exists()) {
-            try{
-                f.createNewFile();
-            }catch(IOException exception){
-                System.err.println("Error creando el archivo");
-            }
-        }
-        try{
-            writer = new FileWriter("Emergencias.txt",true);
-            pw = new PrintWriter(writer);
-            pw.println(n);
-            
-        }catch(IOException exception){
-                System.err.println("Error abriendo el archivo");
-        }finally {
-           try {
-               //Closing the file
-           if (null != writer)
-              writer.close();
-           } catch (Exception e2) {
-              e2.printStackTrace();
-           }
-        }
-        
-       audio();
-        
-        
-    }
     public static void audio() throws UnsupportedAudioFileException, IOException, LineUnavailableException{
         
         
@@ -143,6 +109,37 @@ public class Persistencia {
     }
     return denuncias;
     
+    }
+    
+    public static void psicologo(String n){
+        File f = new File("AyudaPsicologica.txt");
+        FileWriter writer = null;
+        PrintWriter pw = null;
+        
+        // File creation
+        if (!f.exists()) {
+            try{
+                f.createNewFile();
+            }catch(IOException exception){
+                System.err.println("Error creando el archivo");
+            }
+        }
+        try{
+            writer = new FileWriter("AyudaPsicologica.txt",true);
+            pw = new PrintWriter(writer);
+            pw.println(n);
+            
+        }catch(IOException exception){
+                System.err.println("Error abriendo el archivo");
+        }finally {
+           try {
+               //Closing the file
+           if (null != writer)
+              writer.close();
+           } catch (Exception e2) {
+              e2.printStackTrace();
+           }
+        }
     }
     
 }

@@ -48,6 +48,7 @@ public class Frame extends javax.swing.JFrame {
         botondatos = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         botonregistro = new javax.swing.JButton();
+        autoridades = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -101,32 +102,49 @@ public class Frame extends javax.swing.JFrame {
             }
         });
 
+        autoridades.setBackground(new java.awt.Color(255, 51, 153));
+        autoridades.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        autoridades.setForeground(new java.awt.Color(255, 255, 255));
+        autoridades.setText("Autoridades");
+        autoridades.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                autoridadesActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 1066, Short.MAX_VALUE)
-                .addContainerGap())
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(108, 108, 108)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(anuncio, javax.swing.GroupLayout.PREFERRED_SIZE, 490, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(56, 56, 56)
-                        .addComponent(anuncio2, javax.swing.GroupLayout.PREFERRED_SIZE, 328, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(53, 53, 53)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(clave)
-                    .addComponent(labelcedula, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(labelclave, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap()
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 1066, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(botondatos)
-                        .addGap(18, 18, 18)
-                        .addComponent(botonregistro))
-                    .addComponent(cedula))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(108, 108, 108)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(anuncio, javax.swing.GroupLayout.PREFERRED_SIZE, 490, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addGap(56, 56, 56)
+                                        .addComponent(anuncio2, javax.swing.GroupLayout.PREFERRED_SIZE, 328, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(256, 256, 256)
+                                .addComponent(autoridades)))
+                        .addGap(53, 53, 53)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(clave)
+                            .addComponent(labelcedula, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(labelclave, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(botondatos)
+                                .addGap(18, 18, 18)
+                                .addComponent(botonregistro))
+                            .addComponent(cedula))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -149,7 +167,8 @@ public class Frame extends javax.swing.JFrame {
                 .addGap(29, 29, 29)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(botondatos)
-                    .addComponent(botonregistro))
+                    .addComponent(botonregistro)
+                    .addComponent(autoridades))
                 .addGap(88, 88, 88)
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 237, Short.MAX_VALUE)
                 .addContainerGap())
@@ -208,11 +227,28 @@ public class Frame extends javax.swing.JFrame {
         
       usuario.clave = clave.getText();
       usuario.cedula = cedula.getText();
+        try {
+            if (usuario.confirmarRegistro()) {
+                JOptionPane.showMessageDialog(this, "Usuario ya existente");
+            } else {
+                usuario.registrar();
+                JOptionPane.showMessageDialog(this, "Usuario Registrado");
+            }
+        } catch (IOException ex) {
+            Logger.getLogger(Frame.class.getName()).log(Level.SEVERE, null, ex);
+        }
         
-        usuario.registrar();
-        JOptionPane.showMessageDialog(this, "Datos registrados");
         
     }//GEN-LAST:event_botonregistroActionPerformed
+
+    private void autoridadesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_autoridadesActionPerformed
+        
+            Autoridades newframe = new Autoridades();
+            newframe.setVisible(true);
+            this.dispose();
+            
+            
+    }//GEN-LAST:event_autoridadesActionPerformed
    
     /**
      * @param args the command line arguments
@@ -252,6 +288,7 @@ public class Frame extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel anuncio;
     private javax.swing.JLabel anuncio2;
+    private javax.swing.JButton autoridades;
     private javax.swing.JButton botondatos;
     private javax.swing.JButton botonregistro;
     private javax.swing.JTextField cedula;

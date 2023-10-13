@@ -1,27 +1,10 @@
-BOTÓN DE EMERGENCIA ACTIVADO   Nombre:  Placa:  Lugar: Comuna 1 - Popular
-BOTÓN DE EMERGENCIA ACTIVADO   Nombre: asdfjnasss Placa: sdfsdf Lugar: Comuna 1 - Popularsdff
-DENUNCIA Nombre: santiago Placa: ccn123 Lugar: Comuna 13 - San Javier estoy al lado de viva con camisa amarilla
-BOTÓN DE EMERGENCIA ACTIVADO   Nombre: santiago Placa: ccn123 Lugar: Comuna 13 - San Javierestoy al lado de viva con camisa amarilla
-BOTÓN DE EMERGENCIA ACTIVADO   Nombre:  Placa:  Lugar: Comuna 1 - Popular
-BOTÓN DE EMERGENCIA ACTIVADO   Nombre:  Placa:  Lugar: Comuna 1 - Popular
-BOTÓN DE EMERGENCIA ACTIVADO   Nombre:  Placa:  Lugar: Comuna 1 - Popular
-BOTÓN DE EMERGENCIA ACTIVADO   Nombre:  Placa:  Lugar: Comuna 1 - Popular
-DENUNCIA Nombre: samuel Placa: fgt540 Lugar: Comuna 15 - Guayabal el acosador es santiago
-BOTÓN DE EMERGENCIA ACTIVADO   Nombre: samuel Placa: fgt540 Lugar: Comuna 15 - Guayabalel acosador es santiago
-BOTÓN DE EMERGENCIA ACTIVADO   Nombre: samuel Placa: fgt540 Lugar: Comuna 15 - Guayabalel acosador es santiago
-DENUNCIA Nombre: sdjkfsd Placa: zxc Lugar: Comuna 1 - Popular 
-BOTÓN DE EMERGENCIA ACTIVADO   Nombre:  Placa:  Lugar: Comuna 1 - Popular
-DENUNCIA Nombre: xdfkm Placa: asdasd Lugar: Comuna 1 - Popular sdjkfnaskjdf
-DENUNCIA Nombre: asdfasf Placa: fghfgh Lugar: Comuna 1 - Popular aefiojjaer
-DENUNCIA Nombre: simon Placa: asd123 Lugar: Comuna 1 - Popular nos e nada
-BOTÓN DE EMERGENCIA ACTIVADO   Nombre: simon Placa: asd123 Lugar: Comuna 1 - Popularnos e nada
-DENUNCIA Nombre: asdfasdf123456 Placa: 123456 Lugar: Comuna 3 - Manrique kdsajfnkjasndf
-ADD123
-DENUNCIA Nombre: Andrea Gómez Placa: tcc123 Lugar: Comuna 12 - La América el conductor del autobus[ ]
-BOTÓN DE EMERGENCIA ACTIVADO   Nombre: Andrea Gómez Placa: tcc123 Lugar: Comuna 14 - El Pobladoel conductor del autobus[ ]
-DENUNCIA Nombre: santiago Placa: ACC345 Lugar: Comuna 4 - Aranjuez sucedió en un taxi,  cerca al parque. no habían policias en la zona
-DENUNCIA Nombre: andrea Placa: app674 Lugar: Comuna 7 - Robledo el conductor de bus tuvo un comportamiento inapropiado con otra pasajera
-DENUNCIA Nombre: paola Placa: fgt888 Lugar: Comuna 3 - Manrique estaba sola en un uber y el conductor no me paraba para dejarme bajar
-BOTÓN DE EMERGENCIA ACTIVADO   Nombre: andrea Placa: hgg784 Lugar: Comuna 3 - Manriqueme intentó llevar a callejones en el taxi con placa hgg784
-DENUNCIA Nombre: andrea Placa: hgg784 Lugar: Comuna 3 - Manrique me intentó llevar a callejones en el taxi con placa hgg784
-DENUNCIA Nombre: federico Placa: lkj67i Lugar: Comuna 2 - Santa Cruz sufrí acoso por parte de mi picapp
+asd , asd , "Comuna 1 - Popular"
+asd234 ,  , "Comuna 1 - Popular"
+ASD123 , asd , "Comuna 1 - Popular"
+QWE123 , qwe , "Comuna 1 - Popular"
+C.C 1001367562QWE123 , aewsrgsdtfhdsfghaer , "Comuna 6 - Doce de Octubre"
+C.C asd123345WER , sdaf , "Comuna 3 - Manrique"
+C.C 10035641ASD123 , fue asi y asi asfduewrngf , "Comuna 4 - Aranjuez"
+C.C sdfSDF123 , asfadfsg , "Comuna 1 - Popular"
+C.C asdASDASD , asdasdf , "Comuna 1 - Popular"
+C.C asdASD123 , asrgsrthdsryth , "Comuna 1 - Popular"

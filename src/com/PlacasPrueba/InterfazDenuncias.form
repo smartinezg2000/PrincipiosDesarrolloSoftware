@@ -322,25 +322,28 @@
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="16">
-                <StringItem index="0" value="&quot;Comuna 1 - Popular&quot;"/>
-                <StringItem index="1" value="&quot;Comuna 2 - Santa Cruz&quot;"/>
-                <StringItem index="2" value="&quot;Comuna 3 - Manrique&quot;"/>
-                <StringItem index="3" value="&quot;Comuna 4 - Aranjuez&quot;"/>
-                <StringItem index="4" value="&quot;Comuna 5 - Castilla&quot;,"/>
-                <StringItem index="5" value="&quot;Comuna 6 - Doce de Octubre&quot;"/>
-                <StringItem index="6" value="&quot;Comuna 7 - Robledo&quot;,"/>
-                <StringItem index="7" value="&quot;Comuna 8 - Villa Hermosa&quot;"/>
-                <StringItem index="8" value="&quot;Comuna 9 - Buenos Aires&quot;"/>
-                <StringItem index="9" value="&quot;Comuna 10 - La Candelaria&quot;"/>
-                <StringItem index="10" value="&quot;Comuna 11 - Laureles - Estadio&quot;"/>
-                <StringItem index="11" value="&quot;Comuna 12 - La Am&#xe9;rica&quot;"/>
-                <StringItem index="12" value="&quot;Comuna 13 - San Javier&quot;"/>
-                <StringItem index="13" value="&quot;Comuna 14 - El Poblado&quot;"/>
-                <StringItem index="14" value=" &quot;Comuna 15 - Guayabal&quot;"/>
+                <StringItem index="0" value="&quot;Comuna 1  Popular&quot;"/>
+                <StringItem index="1" value="&quot;Comuna 2  Santa Cruz&quot;"/>
+                <StringItem index="2" value="&quot;Comuna 3  Manrique&quot;"/>
+                <StringItem index="3" value="&quot;Comuna 4  Aranjuez&quot;"/>
+                <StringItem index="4" value="&quot;Comuna 5  Castilla&quot;,"/>
+                <StringItem index="5" value="&quot;Comuna 6  Doce de Octubre&quot;"/>
+                <StringItem index="6" value="&quot;Comuna 7  Robledo&quot;,"/>
+                <StringItem index="7" value="&quot;Comuna 8  Villa Hermosa&quot;"/>
+                <StringItem index="8" value="&quot;Comuna 9  Buenos Aires&quot;"/>
+                <StringItem index="9" value="&quot;Comuna 10  La Candelaria&quot;"/>
+                <StringItem index="10" value="&quot;Comuna 11  Laureles - Estadio&quot;"/>
+                <StringItem index="11" value="&quot;Comuna 12  La Am&#xe9;rica&quot;"/>
+                <StringItem index="12" value="&quot;Comuna 13  San Javier&quot;"/>
+                <StringItem index="13" value="&quot;Comuna 14  El Poblado&quot;"/>
+                <StringItem index="14" value=" &quot;Comuna 15  Guayabal&quot;"/>
                 <StringItem index="15" value=" &quot;Comuna 16 - Bel&#xe9;n&quot;"/>
               </StringArray>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comunaActionPerformed"/>
+          </Events>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
           </AuxValues>

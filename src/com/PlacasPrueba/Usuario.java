@@ -42,7 +42,7 @@ public class Usuario {
         try{
             writer = new FileWriter("Usuarios.txt",true);
             pw = new PrintWriter(writer);
-            pw.println(this.cedula + ","+ this.clave);
+            pw.println(this.cedula + "-"+ this.clave);
         }catch(IOException exception){
             System.err.println("Error abriendo el archivo");
         }finally {

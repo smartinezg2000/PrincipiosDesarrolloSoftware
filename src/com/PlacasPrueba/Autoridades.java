@@ -72,7 +72,7 @@ public class Autoridades extends javax.swing.JFrame {
 
             },
             new String [] {
-                "Nombre", "Contacto"
+                "Cedula", "Nombre", "Contacto"
             }
         ));
         jScrollPane2.setViewportView(ayudaPsicologica);
@@ -178,7 +178,7 @@ public class Autoridades extends javax.swing.JFrame {
       FileReader fileReader = new FileReader(registro);
         try (BufferedReader bufferedReader = new BufferedReader(fileReader)) {
             while ((line = bufferedReader.readLine()) != null) {
-                model.addRow( line.split(","));
+                model.addRow( line.split("-"));
                  
                  
             } }
@@ -197,7 +197,7 @@ public class Autoridades extends javax.swing.JFrame {
       FileReader fileReader = new FileReader(registro);
         try (BufferedReader bufferedReader = new BufferedReader(fileReader)) {
             while ((line = bufferedReader.readLine()) != null) {
-                model.addRow( line.split(","));
+                model.addRow( line.split("-"));
                  
                  
             } }

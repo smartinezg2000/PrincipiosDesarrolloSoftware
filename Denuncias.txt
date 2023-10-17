@@ -1,18 +1,3 @@
-C.C 1001367561,ACC123 , gsethrth , "Comuna 4 - Aranjuez" , denuncia
-C.C 1001367561,ACC123 , gsethrth , "Comuna 4 - Aranjuez" , denuncia
-C.C 1001367561,ACC123 , gsethrth , "Comuna 4 - Aranjuez" , denuncia
-C.C 1001367561,ACC123 , gsethrth , "Comuna 4 - Aranjuez" , denuncia
-C.C 1001367561,ACC123 , gsethrth , "Comuna 4 - Aranjuez" , denuncia
-C.C 1001367561,ACC123 , gsethrth , "Comuna 4 - Aranjuez" , denuncia
-C.C 1001367561,ACC123 , gsethrth , "Comuna 4 - Aranjuez" , denuncia
-C.C 1001367561,ACC123 , gsethrth , "Comuna 4 - Aranjuez" , denuncia
-C.C 1001367561,ACC123 , gsethrth , "Comuna 4 - Aranjuez" , denuncia
-C.C 1001367561,ACC123 , gsethrth , "Comuna 4 - Aranjuez" , denuncia
-C.C 1001367561,ACC123 , gsethrth , "Comuna 4 - Aranjuez" , denuncia
-C.C 1001367561 , ACC123 , gsethrth , "Comuna 4 - Aranjuez" , EMERGENCIA
-C.C 1001367561 , ACC123 , gsethrth , "Comuna 4 - Aranjuez" , EMERGENCIA
-C.C 1001367561,ACC123 , gsethrth , "Comuna 4 - Aranjuez" , denuncia
-C.C 1001367561,ASDF23 , zdvsdfv , "Comuna 1 - Popular" , denuncia
-C.C 1001367561,ASDF23 , zdvsdfv , "Comuna 1 - Popular" , denuncia
-C.C 1001367561,ASDF23 , zdvsdfv , "Comuna 1 - Popular" , denuncia
-C.C 2543543,SDF123 ,  , "Comuna 1 - Popular" , denuncia
+C.C 1001367561-ACC123 - conductor imprudente, cuidado - "Comuna 4  Aranjuez" - denuncia
+C.C 1001367561-QWE123 - acosa a las chicas que entran al bus - "Comuna 7  Robledo", - denuncia
+C.C 1001367561 - QWE123 - acosa a las chicas que entran al bus - "Comuna 7  Robledo", - EMERGENCIA

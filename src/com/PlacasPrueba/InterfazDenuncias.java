@@ -142,7 +142,12 @@ public class InterfazDenuncias extends javax.swing.JFrame {
         jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel8.setText("Ubicación");
 
-        comuna.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "\"Comuna 1 - Popular\"", "\"Comuna 2 - Santa Cruz\"", "\"Comuna 3 - Manrique\"", "\"Comuna 4 - Aranjuez\"", "\"Comuna 5 - Castilla\",", "\"Comuna 6 - Doce de Octubre\"", "\"Comuna 7 - Robledo\",", "\"Comuna 8 - Villa Hermosa\"", "\"Comuna 9 - Buenos Aires\"", "\"Comuna 10 - La Candelaria\"", "\"Comuna 11 - Laureles - Estadio\"", "\"Comuna 12 - La América\"", "\"Comuna 13 - San Javier\"", "\"Comuna 14 - El Poblado\"", " \"Comuna 15 - Guayabal\"", " \"Comuna 16 - Belén\"" }));
+        comuna.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "\"Comuna 1  Popular\"", "\"Comuna 2  Santa Cruz\"", "\"Comuna 3  Manrique\"", "\"Comuna 4  Aranjuez\"", "\"Comuna 5  Castilla\",", "\"Comuna 6  Doce de Octubre\"", "\"Comuna 7  Robledo\",", "\"Comuna 8  Villa Hermosa\"", "\"Comuna 9  Buenos Aires\"", "\"Comuna 10  La Candelaria\"", "\"Comuna 11  Laureles - Estadio\"", "\"Comuna 12  La América\"", "\"Comuna 13  San Javier\"", "\"Comuna 14  El Poblado\"", " \"Comuna 15  Guayabal\"", " \"Comuna 16 - Belén\"" }));
+        comuna.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                comunaActionPerformed(evt);
+            }
+        });
 
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/PlacasPrueba/taxis.jpg"))); // NOI18N
 
@@ -335,7 +340,7 @@ public class InterfazDenuncias extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Placa no Valida");    
             }
             else{
-            String s ="C.C "+usuario.cedula+" , "+ pla+" , "+det+" , "+com+" , "+"EMERGENCIA";
+            String s ="C.C "+usuario.cedula+" - "+ pla+" - "+det+" - "+com+" - "+"EMERGENCIA";
         
             Persistencia.denuncias(s);
         
@@ -357,7 +362,7 @@ public class InterfazDenuncias extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Placa no Valida");    
             }
             else{
-            String s = "C.C "+usuario.cedula+","+ pla+" , "+det+" , "+com+" , "+"denuncia";
+            String s = "C.C "+usuario.cedula+"-"+ pla+" - "+det+" - "+com+" - "+"denuncia";
         Persistencia.denuncias(s);
         Persistencia.placas(pla);
         JOptionPane.showMessageDialog(this, "Denuncia Registrada");
@@ -373,7 +378,7 @@ public class InterfazDenuncias extends javax.swing.JFrame {
     }//GEN-LAST:event_detallesActionPerformed
 
     private void ayudaPsicologicaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ayudaPsicologicaActionPerformed
-        String datos = nombrePsicologo.getText()+","+numeroPsicologo.getText();
+        String datos = usuario.cedula+"-"+nombrePsicologo.getText()+"-"+numeroPsicologo.getText();
       
         
               Persistencia.psicologo(datos);
@@ -410,6 +415,10 @@ public class InterfazDenuncias extends javax.swing.JFrame {
             this.dispose();
             
     }//GEN-LAST:event_botonEmergencia1ActionPerformed
+
+    private void comunaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comunaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_comunaActionPerformed
 
     /**
      * @param args the command line arguments

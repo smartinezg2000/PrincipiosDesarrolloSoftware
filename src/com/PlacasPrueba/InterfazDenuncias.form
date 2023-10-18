@@ -74,7 +74,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel13" min="-2" pref="298" max="-2" attributes="0"/>
-                              <Component id="botonPsicologo" min="-2" pref="135" max="-2" attributes="0"/>
+                              <Component id="consultaPlaca" min="-2" pref="135" max="-2" attributes="0"/>
                               <Component id="ayudaPsicologica" alignment="0" min="-2" pref="264" max="-2" attributes="0"/>
                               <Component id="jSeparator2" min="-2" pref="390" max="-2" attributes="0"/>
                               <Component id="placaConsulta" alignment="0" min="-2" pref="107" max="-2" attributes="0"/>
@@ -175,7 +175,7 @@
                           <Component id="botonEmergencia" min="-2" pref="39" max="-2" attributes="0"/>
                       </Group>
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="botonPsicologo" min="-2" pref="39" max="-2" attributes="0"/>
+                          <Component id="consultaPlaca" min="-2" pref="39" max="-2" attributes="0"/>
                           <Component id="jSeparator1" min="-2" pref="440" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -406,7 +406,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ayudaPsicologicaActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="botonPsicologo">
+        <Component class="javax.swing.JButton" name="consultaPlaca">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="99" green="33" red="ff" type="rgb"/>
@@ -420,7 +420,7 @@
             <Property name="text" type="java.lang.String" value="Consultar"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonPsicologoActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="consultaPlacaActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JSeparator" name="jSeparator1">

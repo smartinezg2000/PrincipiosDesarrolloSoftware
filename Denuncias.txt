@@ -5,3 +5,6 @@ C.C 1001367564 - KCC123 - acosa a las mujeres que entran en el bus - "Comuna 6  
 C.C 1001367564 - KCC123 - acosa a las mujeres que entran en el bus - "Comuna 6  Doce de Octubre" - EMERGENCIA
 C.C 1001367565 - ATT123 - acosa a las chicas que entran en el bus - "Comuna 6  Doce de Octubre" - denuncia
 C.C 1001367565 - ATT123 - acosa a las chicas que entran en el bus - "Comuna 6  Doce de Octubre" - EMERGENCIA
+C.C 1001367565 - QWE123 - asdgadfg - "Comuna 1  Popular" - denuncia
+C.C 1001367565 - QWE123 - asdgadfg - "Comuna 1  Popular" - EMERGENCIA
+C.C 1001367561 - ASD456 - prueba - "Comuna 1  Popular" - EMERGENCIA

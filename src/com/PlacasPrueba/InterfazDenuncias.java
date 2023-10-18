@@ -7,8 +7,6 @@ package com.PlacasPrueba;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.sound.sampled.LineUnavailableException;
-import javax.sound.sampled.UnsupportedAudioFileException;
 import javax.swing.JOptionPane;
 
 /**
@@ -60,7 +58,7 @@ public class InterfazDenuncias extends javax.swing.JFrame {
         placaConsulta = new javax.swing.JTextField();
         jLabel13 = new javax.swing.JLabel();
         ayudaPsicologica = new javax.swing.JButton();
-        botonPsicologo = new javax.swing.JButton();
+        consultaPlaca = new javax.swing.JButton();
         jSeparator1 = new javax.swing.JSeparator();
         jSeparator2 = new javax.swing.JSeparator();
         botonEmergencia1 = new javax.swing.JButton();
@@ -173,13 +171,13 @@ public class InterfazDenuncias extends javax.swing.JFrame {
             }
         });
 
-        botonPsicologo.setBackground(new java.awt.Color(255, 51, 153));
-        botonPsicologo.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        botonPsicologo.setForeground(new java.awt.Color(255, 255, 255));
-        botonPsicologo.setText("Consultar");
-        botonPsicologo.addActionListener(new java.awt.event.ActionListener() {
+        consultaPlaca.setBackground(new java.awt.Color(255, 51, 153));
+        consultaPlaca.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        consultaPlaca.setForeground(new java.awt.Color(255, 255, 255));
+        consultaPlaca.setText("Consultar");
+        consultaPlaca.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonPsicologoActionPerformed(evt);
+                consultaPlacaActionPerformed(evt);
             }
         });
 
@@ -225,7 +223,7 @@ public class InterfazDenuncias extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel12)
                             .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 298, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(botonPsicologo, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(consultaPlaca, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(ayudaPsicologica, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 390, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(placaConsulta, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -310,7 +308,7 @@ public class InterfazDenuncias extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addComponent(botonEmergencia, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(botonPsicologo, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(consultaPlaca, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 440, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(818, 818, 818))
         );
@@ -386,7 +384,7 @@ public class InterfazDenuncias extends javax.swing.JFrame {
        JOptionPane.showMessageDialog(this, "Proximamente nos contactaremos");
     }//GEN-LAST:event_ayudaPsicologicaActionPerformed
 
-    private void botonPsicologoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonPsicologoActionPerformed
+    private void consultaPlacaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_consultaPlacaActionPerformed
        String pla = placaConsulta.getText().toUpperCase();
        int n = 0;
         try {
@@ -395,7 +393,7 @@ public class InterfazDenuncias extends javax.swing.JFrame {
             Logger.getLogger(InterfazDenuncias.class.getName()).log(Level.SEVERE, null, ex);
         }
        JOptionPane.showMessageDialog(this, "Esta Placa tienes "+ n +" Denuncia(s)");
-    }//GEN-LAST:event_botonPsicologoActionPerformed
+    }//GEN-LAST:event_consultaPlacaActionPerformed
 
     private void nombrePsicologoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nombrePsicologoActionPerformed
         // TODO add your handling code here:
@@ -437,8 +435,8 @@ public class InterfazDenuncias extends javax.swing.JFrame {
     private javax.swing.JButton botonDenuncia;
     private javax.swing.JButton botonEmergencia;
     private javax.swing.JButton botonEmergencia1;
-    private javax.swing.JButton botonPsicologo;
     private javax.swing.JComboBox<String> comuna;
+    private javax.swing.JButton consultaPlaca;
     private javax.swing.JTextField detalles;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;

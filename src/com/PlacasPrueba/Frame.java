@@ -4,13 +4,8 @@
  */
 //manipulacion archivos
 package com.PlacasPrueba;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
 
-import java.io.FileReader;
-import java.io.BufferedReader;
+import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -45,7 +40,7 @@ public class Frame extends javax.swing.JFrame {
         labelclave = new javax.swing.JLabel();
         clave = new javax.swing.JTextField();
         cedula = new javax.swing.JTextField();
-        botondatos = new javax.swing.JButton();
+        botonEntrar = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         botonregistro = new javax.swing.JButton();
         autoridades = new javax.swing.JButton();
@@ -80,13 +75,13 @@ public class Frame extends javax.swing.JFrame {
             }
         });
 
-        botondatos.setBackground(new java.awt.Color(255, 51, 153));
-        botondatos.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        botondatos.setForeground(new java.awt.Color(255, 255, 255));
-        botondatos.setText("Entrar");
-        botondatos.addActionListener(new java.awt.event.ActionListener() {
+        botonEntrar.setBackground(new java.awt.Color(255, 51, 153));
+        botonEntrar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        botonEntrar.setForeground(new java.awt.Color(255, 255, 255));
+        botonEntrar.setText("Entrar");
+        botonEntrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botondatosActionPerformed(evt);
+                botonEntrarActionPerformed(evt);
             }
         });
 
@@ -139,7 +134,7 @@ public class Frame extends javax.swing.JFrame {
                             .addComponent(labelcedula, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(labelclave, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(botondatos)
+                                .addComponent(botonEntrar)
                                 .addGap(18, 18, 18)
                                 .addComponent(botonregistro))
                             .addComponent(cedula))
@@ -166,7 +161,7 @@ public class Frame extends javax.swing.JFrame {
                 .addComponent(clave, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(29, 29, 29)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(botondatos)
+                    .addComponent(botonEntrar)
                     .addComponent(botonregistro)
                     .addComponent(autoridades))
                 .addGap(88, 88, 88)
@@ -188,7 +183,7 @@ public class Frame extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void botondatosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botondatosActionPerformed
+    private void botonEntrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonEntrarActionPerformed
     Usuario usuario = new Usuario();
         
     usuario.clave = clave.getText();
@@ -212,7 +207,7 @@ public class Frame extends javax.swing.JFrame {
           
           
           
-    }//GEN-LAST:event_botondatosActionPerformed
+    }//GEN-LAST:event_botonEntrarActionPerformed
 
     private void cedulaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cedulaActionPerformed
         // TODO add your handling code here:
@@ -289,7 +284,7 @@ public class Frame extends javax.swing.JFrame {
     private javax.swing.JLabel anuncio;
     private javax.swing.JLabel anuncio2;
     private javax.swing.JButton autoridades;
-    private javax.swing.JButton botondatos;
+    private javax.swing.JButton botonEntrar;
     private javax.swing.JButton botonregistro;
     private javax.swing.JTextField cedula;
     private javax.swing.JTextField clave;

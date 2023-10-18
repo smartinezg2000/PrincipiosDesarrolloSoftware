@@ -35,13 +35,13 @@ public class Autoridades extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         tablaEmergencias = new javax.swing.JTable();
-        jButton1 = new javax.swing.JButton();
+        actualizarDenuncias = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
         ayudaPsicologica = new javax.swing.JTable();
-        jButton2 = new javax.swing.JButton();
+        actualizarAyudaPsicologica = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jButton3 = new javax.swing.JButton();
+        Volver = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -57,13 +57,13 @@ public class Autoridades extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tablaEmergencias);
 
-        jButton1.setBackground(new java.awt.Color(255, 51, 153));
-        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Actualizar");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        actualizarDenuncias.setBackground(new java.awt.Color(255, 51, 153));
+        actualizarDenuncias.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        actualizarDenuncias.setForeground(new java.awt.Color(255, 255, 255));
+        actualizarDenuncias.setText("Actualizar");
+        actualizarDenuncias.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                actualizarDenunciasActionPerformed(evt);
             }
         });
 
@@ -77,13 +77,13 @@ public class Autoridades extends javax.swing.JFrame {
         ));
         jScrollPane2.setViewportView(ayudaPsicologica);
 
-        jButton2.setBackground(new java.awt.Color(255, 51, 153));
-        jButton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setText("Actualizar");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        actualizarAyudaPsicologica.setBackground(new java.awt.Color(255, 51, 153));
+        actualizarAyudaPsicologica.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        actualizarAyudaPsicologica.setForeground(new java.awt.Color(255, 255, 255));
+        actualizarAyudaPsicologica.setText("Actualizar");
+        actualizarAyudaPsicologica.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                actualizarAyudaPsicologicaActionPerformed(evt);
             }
         });
 
@@ -93,13 +93,13 @@ public class Autoridades extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel2.setText("Denuncias");
 
-        jButton3.setBackground(new java.awt.Color(255, 51, 153));
-        jButton3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jButton3.setText("Volver");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        Volver.setBackground(new java.awt.Color(255, 51, 153));
+        Volver.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Volver.setForeground(new java.awt.Color(255, 255, 255));
+        Volver.setText("Volver");
+        Volver.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                VolverActionPerformed(evt);
             }
         });
 
@@ -112,15 +112,15 @@ public class Autoridades extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(391, 391, 391)
-                        .addComponent(jButton1))
+                        .addComponent(actualizarDenuncias))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(67, 67, 67)
                         .addComponent(jLabel1))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(16, 16, 16)
-                        .addComponent(jButton3)
+                        .addComponent(Volver)
                         .addGap(301, 301, 301)
-                        .addComponent(jButton2))
+                        .addComponent(actualizarAyudaPsicologica))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(173, 173, 173)
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 528, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -137,15 +137,15 @@ public class Autoridades extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton1)
+                .addComponent(actualizarDenuncias)
                 .addGap(1, 1, 1)
                 .addComponent(jLabel1)
                 .addGap(16, 16, 16)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3))
+                    .addComponent(actualizarAyudaPsicologica)
+                    .addComponent(Volver))
                 .addGap(12, 12, 12))
         );
 
@@ -163,7 +163,7 @@ public class Autoridades extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void actualizarDenunciasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_actualizarDenunciasActionPerformed
            // button to add the row to the jtable 
                                         
        // get the model from the jtable
@@ -185,9 +185,9 @@ public class Autoridades extends javax.swing.JFrame {
     } catch (IOException e) {
     }
     
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_actualizarDenunciasActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void actualizarAyudaPsicologicaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_actualizarAyudaPsicologicaActionPerformed
         DefaultTableModel model = (DefaultTableModel)ayudaPsicologica.getModel();
         String registro = "AyudaPsicologica.txt";
     
@@ -203,14 +203,14 @@ public class Autoridades extends javax.swing.JFrame {
             } }
     } catch (IOException e) {
     }
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_actualizarAyudaPsicologicaActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void VolverActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverActionPerformed
        Frame newframe = new Frame();
             newframe.setVisible(true);
             this.dispose();
             
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_VolverActionPerformed
 
     /**
      * @param args the command line arguments
@@ -248,10 +248,10 @@ public class Autoridades extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton Volver;
+    private javax.swing.JButton actualizarAyudaPsicologica;
+    private javax.swing.JButton actualizarDenuncias;
     private javax.swing.JTable ayudaPsicologica;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;

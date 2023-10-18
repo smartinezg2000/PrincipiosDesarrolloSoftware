@@ -1,3 +1,7 @@
 C.C 1001367561-ACC123 - conductor imprudente, cuidado - "Comuna 4  Aranjuez" - denuncia
 C.C 1001367561-QWE123 - acosa a las chicas que entran al bus - "Comuna 7  Robledo", - denuncia
 C.C 1001367561 - QWE123 - acosa a las chicas que entran al bus - "Comuna 7  Robledo", - EMERGENCIA
+C.C 1001367564 - KCC123 - acosa a las mujeres que entran en el bus - "Comuna 6  Doce de Octubre" - denuncia
+C.C 1001367564 - KCC123 - acosa a las mujeres que entran en el bus - "Comuna 6  Doce de Octubre" - EMERGENCIA
+C.C 1001367565 - ATT123 - acosa a las chicas que entran en el bus - "Comuna 6  Doce de Octubre" - denuncia
+C.C 1001367565 - ATT123 - acosa a las chicas que entran en el bus - "Comuna 6  Doce de Octubre" - EMERGENCIA
